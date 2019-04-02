@@ -9,7 +9,7 @@ package question3.tp3;
 public class PilePleineException extends Exception {
 
 	public PilePleineException() {
-		super();
+		super("La Pile est pleine!");
 	}
 
 	public PilePleineException(String message) {
